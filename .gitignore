@@ -1,0 +1,36 @@
+# Build and binary files
+build/
+bin/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Executables
+dpi_engine
+packet_analyzer
+
+# PCAP output files (preserve test input test_dpi.pcap)
+output.pcap
+filtered.pcap
+my_capture.pcap
+*.pcap
+!test_dpi.pcap
+
+# IDE and Editor configurations
+.vscode/
+.vs/
+*.user
+*.suo
+CMakeSettings.json
+CMakeUserPresets.json
+compile_commands.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
